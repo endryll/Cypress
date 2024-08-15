@@ -6,8 +6,7 @@
     "plugin:jsx-a11y/recommended",
     "plugin:react-hooks/recommended",
     "plugin:cypress/recommended",
-    "prettier",
-    "plugin:cypress/recommended"
+    "prettier"
   ],
   "parserOptions": {
     "ecmaVersion": "latest",
