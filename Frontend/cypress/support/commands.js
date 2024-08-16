@@ -26,3 +26,7 @@
 Cypress.Commands.add('getByData', (seletor) => {
     return cy.get(`[data-test=${seletor}]`)
 })
+
+Cypress.Commands.add('testeById', (seletor) => {
+    return cy.get(`[data-test=${seletor}]`)
+})

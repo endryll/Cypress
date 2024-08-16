@@ -21,4 +21,7 @@ describe('Página Principal', () => {
   it('Deve renderizar img com uma imagen', () => {
     cy.getByData('imagem').should('be.visible')
   })
+  it('Deve verificar', () => {
+    cy.testeById(".todo-list li").find("label").should("contain", "To-do List")
+  })
 })
